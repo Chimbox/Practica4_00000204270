@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="felix.alfonso.practica4_00000204270">
+    package="felix.alfonso.thecheezery_00000204270">
 
     <application
         android:allowBackup="true"
@@ -9,7 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Practica4_00000204270">
-        <activity android:name=".MenuActivity"></activity>
+        <activity android:name=".SaltiesActivity"></activity>
+        <activity android:name=".SaltiesActivity" />
+        <activity android:name=".SweetActivity" />
+        <activity android:name=".ProductLineActivity" />
+        <activity android:name=".HotDrinksActivity" />
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".ProductoView" />
+        <activity android:name=".ColdDrinksActivity" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
