@@ -11,7 +11,7 @@ class RegisterActivity : AppCompatActivity() {
         setContentView(R.layout.activity_register)
 
         btnSignIn.setOnClickListener {
-            val intent: Intent=Intent(this, ColdDrinksActivity::class.java)
+            val intent: Intent=Intent(this, MenuActivity::class.java)
             startActivity(intent)
         }
     }

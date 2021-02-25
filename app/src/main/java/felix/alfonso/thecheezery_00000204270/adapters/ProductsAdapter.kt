@@ -35,7 +35,7 @@ public class ProductsAdapter : BaseAdapter {
         var inflater = LayoutInflater.from(context)
         var vista = inflater.inflate(R.layout.producto_item, null)
 
-        vista.imgProducto.setImageResource(prod.image)
+        vista.ivProducto.setImageResource(prod.image)
         vista.tvNombreProducto.setText(prod.name)
         vista.tvDescripcionProducto.setText(prod.description)
         vista.tvPrecio.setText("$"+prod.price.toInt().toString())
